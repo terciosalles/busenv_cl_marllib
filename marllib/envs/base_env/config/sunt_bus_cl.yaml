@@ -1,0 +1,12 @@
+env: sunt_bus_cl
+env_args:
+  map_name: "sunt_bus_cl"
+  num_agents: 5
+  episode_limit: 1000
+  traffic_mult: 1.0
+  demand_mult: 1.0
+  occupancy_add: 0.0
+  stochastic_traffic: False
+mask_flag: False
+global_state_flag: False
+episode_limit: 1000
