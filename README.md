@@ -30,12 +30,6 @@ The implementation was designed to allow cross-training combining different Rein
 * **ER** (Experience Replay)
 * **None/Baseline** (Continual training without memory retention algorithm/Fine-tuning)
 
-## 🏗️ Architecture and Resolution Scheme
-
-Below is the architecture scheme showing how iterations occur between tasks, RL agents, CL modules, and episodic memory:
-
-![Project Scheme](Mapa Mental de Resolução de Problemas (3).jpg)
-
 ## 🚀 Installation
 
 For the plugin to work correctly, it is **mandatory** that both MARLlib and BusEnv are already installed in your environment.
