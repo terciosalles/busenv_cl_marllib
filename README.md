@@ -4,7 +4,7 @@ This repository contains a plugin developed to integrate the **MARLlib** framewo
 
 ## 🎯 Objective
 
-The main objective of this project is to transform the standard MARLlib and BusEnv installations — which natively do not support continual training across multiple tasks — into an ecosystem capable of learning and retaining knowledge over time.
+The main objective of this project is to transform the standard MARLlib and BusEnv installations, which natively do not support continual training across multiple tasks, into an ecosystem capable of learning and retaining knowledge over time.
 
 In addition to enabling Continual Learning, the plugin deeply modifies the database structure used by BusEnv (the **sunt** base), focused on public transport vehicles in the city of Salvador, Bahia. This modification allows researchers and developers to manipulate essential variables of the simulation environment, such as:
 
