@@ -61,8 +61,6 @@ All training orchestration, algorithm choices, and task definitions happen in th
 ### 1. Main Arguments
 You can define via command line or by changing the `default` in the file which algorithms will be used:
 ```python
-parser = argparse.ArgumentParser(description="Universal MACRL in BusEnv")
-parser.add_argument("--exp-name", type=str, default="BusEnv_CL", help="Base experiment name")
 parser.add_argument("--algo", type=str, default="ippo", choices=["mappo", "ippo", "maa2c", "ia2c", "happo"])
 parser.add_argument("--cl-method", type=str, default="derpp", choices=["none", "agem", "ewc", "derpp", "er"])
 ```
